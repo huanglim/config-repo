@@ -1,2 +1,14 @@
+spring:
+  application:
+    name: spring-cloud-config-client
+
+server:
+  port: 8001
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
 test:
-  hello: "new message"
+  hello: "new message!"
